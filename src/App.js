@@ -174,6 +174,7 @@ function App() {
 
   return (
     <div className="App">
+      <a href="https://www.cluemediator.com">Clue Mediator</a>
       <div className="box-container">
         {data.map((d, i) => {
           return <div key={i} className="box" style={{ backgroundColor: d.color }}>
